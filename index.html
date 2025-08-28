@@ -89,6 +89,12 @@ What are you doing here?! you Toughy developer...
               &#60;/Projects&#62;
             </a>
           </li>
+
+          <li class="education" class="navbar-tabs-li" data-aos="fade-down" data-aos-delay="700">
+            <a href="#education" aria-label="education menu button">
+              &#60;/Education&#62;
+            </a>
+          </li>
         </ul>
       </div>
       <!-- navbar tabs ends -->
@@ -108,6 +114,7 @@ What are you doing here?! you Toughy developer...
         </button>
       </div>
     </div>
+
     <!-- hamburger Mobile View-->
     <div class="mobiletogglemenu" id="mobiletogglemenu">
       <ul class="mobile-navbar-tabs-ul" id="mobile-ul">
@@ -135,6 +142,11 @@ What are you doing here?! you Toughy developer...
         <li id="projects-mobile-tab" class="mobile-navbar-tabs-li education" onclick="hidemenubyli()">
           <a href="#education" tabindex="0" aria-label="projects menu button">
             &#60;/Education&#62;
+          </a>
+        </li>
+        <li id="projects-mobile-tab" class="mobile-navbar-tabs-li contact" onclick="hidemenubyli()">
+          <a href="#contact" tabindex="0" aria-label="contact menu button">
+            &#60;/Contact&#62;
           </a>
         </li>
       </ul>
@@ -525,6 +537,80 @@ What are you doing here?! you Toughy developer...
       </div>
 
     </section>
+    <!-- Education Section End  -->
+
+    <!-- Contact Section Start  -->
+    <section class="education-section-container" id="contact" style="padding: 0 0 100px 0;">
+      <div class="projects-section-div">
+        <div class="section-heading" data-aos="fade-up">
+          <h2 class="section-heading-article" tabindex="0" aria-label="My projects starts from here">
+            &#60;/Contact&#62;
+          </h2>
+          <p class="sectionHeadingP"></p>
+        </div>
+        <div class="contact-media-container">
+
+          <!-- Address  -->
+          <div class="logo-box" data-aos="fade-up">
+            <div class="logo-icon">
+              <img src="./src/png/locationIcon.png" alt="Location Icon"
+                style="height: 40px; width: 40px; object-fit: contain;">
+            </div>
+            <div style="display: flex; flex-direction: column; gap: 5px; align-items: center;">
+              <p class="ProjectHeading">Address</p>
+              <p class="section-heading-article edu-from">
+                Surat, Gujarat
+              </p>
+            </div>
+          </div>
+
+          <!-- Contact  -->
+          <div class="logo-box" data-aos="fade-up">
+            <div class="logo-icon">
+              <img src="./src/png/callIcon.png" alt="Calling Icon"
+                style="height: 40px; width: 40px; object-fit: contain;">
+            </div>
+            <div style="display: flex; flex-direction: column; gap: 5px; align-items: center;">
+              <p class="ProjectHeading">Contact</p>
+              <p class="section-heading-article edu-from">
+                +91 81600 77013
+              </p>
+            </div>
+          </div>
+
+          <!-- Email  -->
+          <div class="logo-box" data-aos="fade-up">
+            <div class="logo-icon">
+              <img src="./src/png/emailIcon.png" alt="Email Icon"
+                style="height: 40px; width: 40px; object-fit: contain;">
+            </div>
+            <div style="display: flex; flex-direction: column; gap: 5px; align-items: center;">
+              <p class="ProjectHeading">Email</p>
+              <a href="mailto:sagathiyajaydeep66@gmail.com" tabindex="-1" class="section-heading-article edu-from">
+                sagathiyajaydeep66@gmail.com
+              </a>
+            </div>
+          </div>
+
+          <!-- Resume Link  -->
+          <div class="logo-box" data-aos="fade-up">
+            <div class="logo-icon">
+              <img src="./src/png/downlaodIcon.png" alt="Location Icon"
+                style="height: 40px; width: 40px; object-fit: contain;">
+            </div>
+            <div style="display: flex; flex-direction: column; gap: 5px; align-items: center;">
+              <p class="ProjectHeading">Download</p>
+              <a href="#" class="section-heading-article edu-from" onclick="openURL()">
+                ResumeLink
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <!-- Contact Section End  -->
+
   </main>
   <!-- Main Section End -->
 
@@ -573,16 +659,8 @@ What are you doing here?! you Toughy developer...
               </svg></a>
           </div>
         </div>
-        <div class="footer-avatar-container">
+        <div class="logo footer-avatar-container">
           <img src="src/png/avatar.png" alt="animation-head" class="footer-avatar-img" id="footer-wala-avatar" />
-          <div class="footer-avatar-face">
-            <!-- <div class="footer-avatar-eye footer-left-eye">
-              <div class="footer-pupil"></div>
-            </div>
-            <div class="footer-avatar-eye footer-right-eye">
-              <div class="footer-pupil"></div>
-            </div> -->
-          </div>
         </div>
         <div class="footer-bottom">
           <article>
