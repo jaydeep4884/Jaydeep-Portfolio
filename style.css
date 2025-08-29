@@ -972,6 +972,7 @@ noscript {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  padding-top: 100px;
 }
 
 .about-section,
@@ -1071,7 +1072,7 @@ noscript {
 }
 
 .skills-section-container {
-  padding-top: 150px;
+  padding-top: 100px;
   width: 100%;
   display: flex;
   align-items: center;
@@ -1201,7 +1202,7 @@ footer {
 }
 
 .projects-section-container {
-  padding: 150px 0;
+  padding-top: 100px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1209,7 +1210,7 @@ footer {
 }
 
 .education-section-container {
-  padding: 0 0 50px 0;
+  padding: 60px 0;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1891,7 +1892,7 @@ footer {
   }
 
   #hello-friend {
-    height: 100px;
+    height: 90px;
     font-size: 3.5rem;
   }
 
@@ -1937,7 +1938,7 @@ footer {
   }
 
   .project-boxes-div {
-    padding: 40px 0;
+    padding: 40px 0 20px 0;
   }
 }
 
@@ -1989,11 +1990,13 @@ footer {
 
   .image-div {
     height: 40%;
-    padding-left: 65px;
+    padding-left: 0px !important;
+    width: 100%;
   }
 
   .image-div img {
-    border-top-left-radius: 10px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
     width: 100%;
   }
 
@@ -2046,6 +2049,15 @@ footer {
   .contact-media-container {
     margin-bottom: 0;
   }
+  #hello-friend {
+    height: 60px;
+  }
+  .about-section-container,
+  .skills-section-container,
+  .projects-section-container,
+  .education-section-container {
+    padding-top: 60px;
+  }
 }
 
 @media screen and (max-width: 375px) {
@@ -2071,9 +2083,6 @@ footer {
 
   .logos {
     gap: 20px;
-  }
-  .projects-section-container {
-    padding-bottom: 60px;
   }
 }
 
